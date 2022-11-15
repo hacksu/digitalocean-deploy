@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsx server.js"
+    "start": "tsx server.js",
+    "pull": "git fetch && git pull && yarn install"
   },
   "keywords": [],
   "author": "",
