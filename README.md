@@ -44,6 +44,21 @@ Give your droplet a name, then click `Create Droplet`!
 
 [ click create console ]
 
+## Setting up the project
+
+```bash
+git clone https://github.com/hacksu/digitalocean-deploy
+sh setup.sh
+```
+
+```
+cd project
+```
+
+## Running the project
+```bash
+
+
 ## Uploading Files
 
 Download a file transfer program such as [WinSCP](https://winscp.net/eng/index.php) so you can connect to your server!
@@ -51,5 +66,6 @@ Download a file transfer program such as [WinSCP](https://winscp.net/eng/index.p
 Use the login information provided by DigitalOcean!
 
 If you are having trouble, read [this post](https://docs.digitalocean.com/products/droplets/how-to/transfer-files/) by DigitalOcean on how to transfer files to your droplet with FileZilla! DigitalOcean covers all the specifics for how to make this work!
+
 
 

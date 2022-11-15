@@ -2,9 +2,9 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
-    "start": "tsx server.js",
+    "start": "tsx src/server.ts",
     "pull": "git fetch && git pull && yarn install"
   },
   "keywords": [],
