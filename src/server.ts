@@ -17,5 +17,9 @@ app.get('/time', (req, res) => {
     res.send(new Date().toLocaleString());
 })
 
+app.get('/hello/:name', (req, res) => {
+    const { name } = req.params;
+    res.send(`Hello ${name}!`);
+})
 
 
