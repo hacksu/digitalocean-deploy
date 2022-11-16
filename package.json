@@ -5,7 +5,7 @@
   "main": "src/server.ts",
   "scripts": {
     "start": "tsx src/server.ts",
-    "pull": "git fetch && git pull && yarn install"
+    "pull": "git fetch && git pull && yarn install && pm2 restart server"
   },
   "keywords": [],
   "author": "",
